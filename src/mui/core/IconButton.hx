@@ -10,6 +10,7 @@ typedef IconButtonProps = {
 	> ButtonBaseBaseProps,
 
 	@:optional var color:Color;
+	@:optional var tooltip:String;
 }
 
 @:jsRequire('@material-ui/core', 'IconButton')

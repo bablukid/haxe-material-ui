@@ -37,5 +37,5 @@ typedef ModalBaseProps = {
 	@:optional var onRendered:Void->Void;
 }
 
-@:jsRequire('@material-ui/core', 'Modal')
+@:jsRequire('@material-ui/core/Modal/Modal', 'default')
 extern class Modal extends ReactComponentOfProps<ModalProps> {}
